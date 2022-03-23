@@ -58,7 +58,7 @@ df = getbasedf()
 
 #Iterrates over all tickers and gets live price data
 for index, row in df.iterrows():
-    time.sleep(1)
+    #time.sleep(1)
     if index < 470:
         continue
     elif index == 358:
